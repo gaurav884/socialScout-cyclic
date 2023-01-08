@@ -4,7 +4,7 @@
   "description": "social media platform",
   "main": "server.js",
   "scripts": {
-    "start": "npm server.js",
+    "start": "node server.js",
     "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client npm run build --prefix client"
   },
   "author": "gaurav",
