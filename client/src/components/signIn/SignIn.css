@@ -1,0 +1,181 @@
+.auth-page{
+    min-height:100vh;
+    display:flow-root;
+    width:100%;
+}
+.auth-page-container{
+    max-width: 1000px;
+    margin:80px auto;
+    display:flex;
+    overflow:hidden;
+    border:0.1px solid rgba(102, 102, 102, 0.137);
+    box-shadow:10px 10px  20px rgba(59, 59, 59, 0.075);
+    border-radius: 5px;
+}
+.auth-page-image-container{
+  max-width: 50%;
+}
+.auth-page-image-container img{
+    max-width: 100%;
+  }
+  
+
+.sign-in-container{
+    max-width: 600px;
+    min-height: 400px;
+    margin:70px auto;
+    text-align:center;
+}
+
+.sign-in-heading-brand{
+    font-size:40px;
+    font-weight:bold;
+    text-align: center;
+    margin:10px auto;
+}
+
+.sign-in-heading-signin{
+    margin:15px auto;
+    text-align: center;
+}
+.sign-in-email-container{
+    margin:10px auto;
+}
+
+.sign-in-passoword-container{
+    margin:10px auto;
+    text-align: center;
+
+}
+
+.sign-in-email-container , .sign-in-passoword-container , .sign-in-name-container{
+    border-radius:10px;
+    display:flex;
+    overflow:hidden;
+    border:0.1px solid rgba(0, 0, 0, 0.158);
+    box-shadow:2px 2px 5px 5px rgba(77, 73, 73, 0.075);
+}
+.sign-in-email-container span , .sign-in-passoword-container span ,.sign-in-name-container span{
+   
+    width:40px;
+    height:40px;
+}
+.sign-in-email-container span svg , .sign-in-passoword-container span svg , .sign-in-name-container span svg{
+    margin:15px 0;
+    width:20px;
+    height:20px;
+}
+
+.sign-in-email-container p , .sign-in-passoword-container p , .sign-in-name-container p{
+    padding:5px 5px;
+    text-align:left;
+    font-size:12px
+} 
+
+.sign-in-form input{
+    margin-bottom: 5px;
+    padding:5px 5px;
+    border:none;
+    outline: none;
+    height:20px;
+    font-weight: 600;
+    
+}
+
+
+.sign-in-button{
+    width:100%;
+    margin:10px auto;
+    padding:15px auto;
+    font-size:15px;
+    height:40px;
+    border:none;
+    background-color:#f58974;
+    color:#fff;
+    font-weight: 600;
+    border-radius:7px;
+    box-shadow:3px 3px 7px 7px rgba(77, 73, 73, 0.075);
+}
+.sign-in-button:hover{
+    cursor:pointer;
+}
+.new-account-link{ 
+    margin:40px auto;
+}
+
+.new-account-link a { 
+    font-weight: 600;
+}
+
+.remember-me-forgot-container{
+    display:flex;
+    justify-content:space-between;
+    margin:18px auto;
+    position:relative;
+}
+
+.remember-me-forgot-container label{
+    
+    margin:auto 5px;
+    font-size:13px;
+    
+}
+.remember-me-forgot-container input{
+    position:absolute;
+    left: 3px;
+    top:0px;
+    
+}
+.remember-me-forgot-container input:hover{
+    cursor: pointer;
+}
+
+.invalid-login{
+    width:315px;
+    color:red;
+    font-size: 13px;
+    text-align:left;
+    margin:10px 0;
+    
+}
+.invalid-button{
+    opacity:0.5
+}
+
+
+@media(max-width:1338px){
+.auth-page-image-container{
+    display:none;
+}
+
+.auth-page-container{
+    padding:10px;
+    margin:20px auto;
+    display:flex;
+    overflow:hidden;
+    border:0.1px solid rgba(12, 12, 12, 0.555);
+    box-shadow:3px 3px 7px 7px rgba(77, 73, 73, 0.075);
+    border-radius: 5px;
+}
+
+.sign-in-heading-brand{
+    font-size:25px;
+    
+}
+.sign-in-heading-signin{
+   font-size:12px
+}
+
+.sign-in-container{
+    width:100%;
+    margin:20px auto;
+    text-align:center;
+}
+}
+
+
+@media(max-width:504px){
+    .auth-page-container{
+        width:95%;
+    }
+}

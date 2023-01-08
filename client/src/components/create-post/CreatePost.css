@@ -1,0 +1,104 @@
+.create-post-container{
+    
+    background-color: #f4f6ff9a;
+    position:relative;
+    max-width: 600px;
+    max-height:220px;
+    margin:15px auto;
+    padding:5px 10px;
+    border:none;
+    box-shadow:1px 1px 5px 5px rgba(77, 73, 73, 0.075);
+}
+
+.create-post-title {
+   
+    width:100%;
+    height:100px;
+    display: inline;
+    margin:10px 0;
+    padding:10px 5px;
+    border:none;
+    outline:none;
+    background-color: #f4f6ff9a;
+}
+.create-post-title:active {
+
+    border:none;
+}
+.create-post-title::placeholder {
+    position:absolute
+
+}
+
+.create-post-file{
+    display: inline;
+    background-color: aliceblue;
+    padding:4px 10px;
+
+}
+.create-post-container button{
+    height:40px;
+    width:80px;
+    padding:4px 5px;
+    border: none;
+    background-color:rgba(71, 199, 250, 0.692);
+    font-weight: bolder;
+    color: white;
+    letter-spacing:0.5px
+}
+.create-post-container button:hover{
+    cursor: pointer;
+}
+
+.post-file-container{
+    background-color: #e0dede3d;
+    width: 100%;
+    left:0;
+    bottom:0;
+    display: flex;
+    justify-content:space-between;
+}
+
+#create-post-file{
+    display:none;
+}
+
+.file-label{
+    margin: auto 10px;
+    height:30px;
+    width:30px;
+    border-radius: 50%;
+}
+.file-label:hover{
+    cursor:pointer;
+}
+.file-label svg{
+    height:100%;
+    width:100%;
+    opacity: 0.5;
+}
+
+
+.photo-preview{
+    max-width: 80px;
+    max-height: 100%;
+    position: absolute;
+    top:0;
+    right:-82px;
+    border:1px solid ;
+    border-style: dashed;
+}
+
+.preview-photo-container svg{
+    position:absolute;
+    top:-2px;
+    right:-96px;
+    z-index: 999;
+    opacity: 0.5;
+
+}
+.preview-photo-container svg:hover{
+    cursor: pointer;
+
+}
+

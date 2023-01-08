@@ -1,0 +1,47 @@
+.FOF-page{
+    margin-top:50px;
+    width:100%;
+    font-family: 'Archivo Narrow', sans-serif;
+    display:flex;
+    justify-content:center;
+}
+
+.FOF-container{
+    display:flex;
+    flex-direction:column;
+    height: 400px;
+    margin:100px auto;
+    padding:50px;
+    border:0.1px solid rgba(0, 0, 0, 0.178);
+    border-radius:10px;
+}
+
+.FOF-container h1{
+    text-align: center;
+    font-size:40px;
+    margin:10px auto;
+}
+.FOF-container h3{
+    text-align: center;
+    font-size:30px;
+    margin:10px auto;
+}
+
+.FOF-container button{
+    padding:5px;
+    border:none;
+    height:40px;
+    background-color: #00C1D4;
+    margin:10px auto;
+    width:100px;
+}
+.error-svg-container{
+    height: 70px;
+    width: 200px;
+    margin:10px auto;
+}
+
+.error-svg-container svg{
+    height: 100%;
+    width: 100%;
+}

@@ -1,0 +1,447 @@
+.scrolling-container::-webkit-scrollbar {
+    width: 3px;             
+  }
+
+ .scrolling-container::-webkit-scrollbar-track {
+      
+      background: rgba(116, 114, 114, 0.322); 
+      width:3px;      
+  }
+  
+ .scrolling-container::-webkit-scrollbar-thumb {
+      
+    
+    border-radius: 20px;       
+    border: 10px solid rgba(56, 55, 55, 0.74);  
+
+  } 
+  
+.postModal-container{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 100vh;
+    position:fixed;
+    background-color: rgba(0, 0, 0, 0.507);
+    z-index: 9999999;
+    
+    
+    
+  
+}
+.postModal-container svg{
+    color: #00C1D4;
+}
+
+.postModal-image-info-container{
+    position:relative;
+    display:flex;
+    height:80vh;
+    overflow:scroll;
+    margin:75px auto;
+    width: 80%;
+    padding:20px 20px;
+    border-radius:10px;
+    
+    
+}
+
+.postModal-image{
+   height:410px;
+   width: 70%;
+   text-align:center;
+   margin-top:25px;
+   padding:0 10px;
+   
+}
+.postModal-image img{
+   max-width: 100%;
+   max-height: 100%;
+    height:980px;
+    text-align:center;
+    
+ }
+
+ .post-modal-li-com-toggle-container{
+    margin:10px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+     display:flex;
+     justify-content:center;
+ }
+.postModal-comments-heading{
+    text-align:center;
+    font-size:13px;
+    border:1px solid rgba(0, 0, 0, 0.096);
+    padding:5px;
+    margin:2px 5px;
+    border-radius: 2px;
+}
+.postModal-comments-heading:hover{
+    cursor:pointer;
+    background-color:rgba(0, 0, 0, 0.082);
+}
+
+.active-li-com{
+    background-color:rgba(0, 0, 0, 0.082);
+}
+
+.postModal-each-comment{
+    margin:10px;
+    width:55%;
+}
+.scrolling-container{
+    height:200px;
+    overflow-y:scroll;
+    border-top:1px solid rgba(0, 0, 0, 0.096);
+    border-bottom:1px solid rgba(0, 0, 0, 0.096);
+
+}
+   
+
+.postModal-info-container{
+    width: 30%;
+    border-left:0.1px solid rgba(54, 53, 53, 0.192);
+    border-right:0.1px solid rgba(54, 53, 53, 0.192);
+    margin:3px auto;
+    padding:5px;
+}
+
+.postModal-postedby-photo-container{
+    max-width: 50px;
+    height:50px;
+    height:50px;
+    overflow: hidden;
+    text-align:center;
+    border-radius:100%;
+    border:rgba(0, 0, 0, 0.432) solid 0.1px;
+
+}
+
+.postModal-postedby-photo-container img{
+    max-width: 50px;
+    margin:auto auto;
+
+    
+}
+
+.name-photo-container{
+    position:relative;
+    display:flex;
+    margin:10px 0;
+}
+.post-modal-cancel-button svg{
+  
+   position:absolute;
+   top:3px;
+   right:10px;
+   height:30px;
+   width:30px;
+   z-index: 999999;
+   background-color:transparent;
+}
+.name-photo-container svg:hover{
+   cursor:pointer;
+ }
+
+.name-photo-container div{
+  
+    margin:0 10px;
+}
+.name-photo-container label{
+  
+    padding-top:10px;
+    font-size:20px;
+    
+}
+.name-photo-container label a{
+    text-decoration: none;
+    color:black;
+    font-weight: 600;
+    margin-left: 10px;
+}
+
+
+
+.postModal-post-title{
+    margin:10px;
+    margin-top: 20px;
+    padding:5px 0;
+}
+
+.postModal-li-com-container{
+    display:flex;
+    margin:10px;
+    padding:5px 0;
+    
+}
+
+.postModal-li-com-container span{
+    
+    margin:0 10px;
+    
+}
+.postModal-likes-number{
+    
+   font-size: 14px;
+   padding-top:8px;
+    
+}
+.postModal-li-com-container svg{
+    margin-top:5px;
+    height:25px;
+    width:25px
+}
+
+.postModal-comments-container{
+    height:100px
+}
+
+.postModal-comment-section{
+    height:40px;
+    margin:10px;
+    position: relative;
+    
+}
+
+.postModal-comment-section input{
+    border:none;
+    height:100%;
+    width:80%;
+    padding: 0 5px;
+    border:0.1px solid rgba(61, 59, 59, 0.295);
+    border-radius:7px;
+    font-size:12px;
+    outline:none;
+    margin-right: 5px;
+}
+.postModal-comment-section button{
+    position: absolute;
+    height:35px;
+    width:35px;
+    top:3px;
+    right:15px;
+    border:none;
+}
+.postModal-comment-section button:hover{
+    cursor: pointer;
+}
+.postModal-comment-section svg{
+    
+    height:100%;
+    width:100%;
+    
+}
+
+.comment-wrapper{
+    display:flex;
+    margin:10px;
+    
+
+}
+.comment-wrapper-image-container{
+    width: 20%;
+    height:30px;
+    width:30px;
+    text-align:center;
+    overflow:hidden;
+    border:0.1px solid rgba(0, 0, 0, 0.521);
+    border-radius: 50%; 
+    margin-top:5px;
+}
+.comment-wrapper-image-container img{
+    max-width: 100%;
+    height:30px;
+}
+.comment-wrapper label{
+    min-width: 28%;
+    margin:10px;
+    margin-right: 0;
+}
+.comment-wrapper a{
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 14px;
+    color:black;
+    padding:3px;
+   
+}
+
+.comment-wrapper p{
+    width: 60%;
+    margin:10px;
+    margin-left: 0;
+    font-size: 12px;
+    padding:3px;
+    
+}
+
+.postModal-delete-post-button{
+    position:relative;
+    height:25px;
+    width:25px;
+    color: red;
+    border: none;
+}
+.postModal-delete-post-button:hover{
+    cursor:pointer;
+}
+.postModal-delete-post-button {
+    position:absolute;
+    top:10px;
+    right:0;
+    height:25px;
+    width:25px;
+
+}
+
+.postModal-delete-post-button button {
+    height:100%;
+    width:100%;
+    border:none;
+   
+
+}
+.postModal-delete-post-button svg {
+    height:100%;
+    width:100%;
+    color:red;
+
+}
+
+.postModal-delete-comment-button{
+    margin-top:12px;
+    color:red;
+    
+    
+}
+.postModal-delete-comment-button:hover{
+   cursor:pointer;
+}
+
+
+
+.coverProfilePicModal-container{
+    position:absolute;
+    top:0;
+    left:0;
+    height:100vh;
+    width:100vw;
+    position:fixed;
+    z-index: 9999999;
+    text-align:center;
+    background-color:rgba(0, 0, 0, 0.918);
+    
+}
+
+.coverProfilePicModal-container-img-wrapper{
+    width:45%;
+    margin:0 auto;
+    background-color:transparent;
+    margin: 50px auto;
+}
+
+.coverProfilePicModal-container img{
+    
+    width:100%;
+}
+
+
+.coverProfilePicModal-container svg{
+    background-color: rgba(0, 0, 0, 0);
+    color:white;
+    height:60px;
+    width:60px;
+    position:absolute;
+    top:20px;
+    right:5%
+
+    
+}
+
+
+@media(max-width: 1096px){
+    .postModal-image-info-container{
+        width: 90%;
+    }
+
+    .postModal-image-info-container{
+        display:flex;
+        max-width: 90%;
+        flex-direction: column;
+        
+    }
+
+    .postModal-info-container{
+       width: 100%;
+
+        
+    }
+    .postModal-image{
+        width: 100%;
+     
+       
+     }
+     .coverProfilePicModal-container-img-wrapper{
+        width:70%;
+       
+    }
+   
+}
+
+
+
+@media(max-width:500px){
+    .coverProfilePicModal-container-img-wrapper{
+        width:90%;
+       
+    }
+
+    .name-photo-container label{
+      font-size:15px;
+        
+    }
+
+    .postModal-postedby-photo-container {
+        width: 40px;
+        height: 40px;
+    }
+    .postModal-postedby-photo-container img{
+        width: 40px;
+        height: 40px;
+        margin:auto auto;
+    
+        
+    }
+    .name-photo-container label a{
+       margin-left:0 ;
+    }
+    .postModal-image-info-container{
+        width: 100%;
+        padding:5px 0px;
+      
+        
+    }
+    .postModal-comment-section button{
+       right:0px;
+        
+    }
+    .post-modal-cancel-button svg{
+  
+        height:25px;
+        width:25px;
+      }
+      
+}
+
+
+
+
+
+@media(max-width:400px){
+    .coverProfilePicModal-container-img-wrapper{
+        width:90%;
+       
+    }
+}

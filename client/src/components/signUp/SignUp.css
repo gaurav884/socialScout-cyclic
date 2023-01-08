@@ -1,0 +1,70 @@
+.sign-up-container{
+    max-width: 600px;
+    height: 400px;
+    margin:100px auto;
+    text-align:center;
+}
+
+.sign-up-heading-brand{
+    font-size:40px;
+    font-weight:bold;
+    text-align: center;
+    margin:10px auto;
+}
+
+.sign-up-heading-signin{
+    margin:10px auto;
+    text-align: center;
+}
+.sign-up-email-container{
+    margin:10px auto;
+}
+
+.sign-up-passoword-container{
+    margin:10px auto;
+    text-align: center;
+}
+
+.sign-up-name-container{
+    margin:10px auto;
+    text-align: center;
+
+}
+
+
+@media(max-width:1338px){
+    .auth-page-image-container{
+        display:none;
+    }
+    
+    .auth-page-container{
+        padding:10px;
+        margin:20px auto;
+        display:flex;
+        overflow:hidden;
+        border:0.1px solid rgba(12, 12, 12, 0.555);
+        box-shadow:3px 3px 7px 7px rgba(77, 73, 73, 0.075);
+        border-radius: 5px;
+    }
+    
+    .sign-in-heading-brand{
+        font-size:25px;
+        
+    }
+    .sign-in-heading-signin{
+       font-size:15px
+    }
+    
+    .sign-in-container{
+        width:100%;
+        margin:20px auto;
+        text-align:center;
+    }
+    }
+    
+    
+    @media(max-width:504px){
+        .auth-page-container{
+            width:95%;
+        }
+    }
