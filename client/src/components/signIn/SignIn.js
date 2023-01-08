@@ -8,8 +8,8 @@ import { RiLockPasswordFill } from "react-icons/ri"
 const SignIn = () => {
     const { state, dispatch } = useContext(UserContext)
     const history = useHistory();
-    const [email, setEmail] = useState("")
-    const [password, setPassword] = useState("")
+    const [email, setEmail] = useState("tgaurav50@yahoo.com")
+    const [password, setPassword] = useState("Shady@cr7")
     const [invalidLogin , setInvalidLogin] = useState(false)
 
     function handler() {
